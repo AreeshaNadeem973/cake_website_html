@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cake Shop</title>
+</head>
+<body>
+  <!-- Header Section -->
+    <header>
+        <table>
+            <tr>
+                <td>
+                    <img src="./images/logo.png" alt="logo image" width="100" />
+                  </td>
+                <td>
+                    <h1>Cake Shop</h1>
+                </td>
+            </tr>
+        </table>
+           <!-- Navigation menu -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+      <!-- Hero Section -->
+      <section>
+        <table width="100%" height="300" background="./images/background.jpg">
+          <tr>
+            <td>
+              <blockquote>
+                <h1> 
+                 Our Products                
+                </h1>
+              </blockquote>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <!-- Sort and Filter Section -->
+        <section>
+            <h1>Delicious Cakes</h1>
+            <!-- Sort By Section -->
+            <table>
+                <tr>
+                    <td>
+                        <label for="sort">Sort By:</label>
+                        <select id="sort">
+                            <option value="newest">Newest</option>
+                            <option value="oldest">Oldest</option>
+                            <option value="price-low">Price: Low to High</option>
+                            <option value="price-high">Price: High to Low</option>
+                        </select>
+                    </td>
+                    <!-- Category Section -->
+                    <td>
+                        <label for="category">Category:</label>
+                        <select id="category">
+                            <option value="all">All</option>
+                            <option value="chocolate">Chocolate</option>
+                            <option value="vanilla">Vanilla</option>
+                            <option value="red velvet dream">Red Velvet Dream</option>
+                            <option value="fruit">Caramel Crunch</option>
+                            <option value="fruit">Black Forest Fantasy</option>
+                            <option value="fruit">Lemon Zest Treat</option>
+                            <option value="fruit">Blueberry Burst</option>
+                            <option value="fruit">Mocha Magic</option>
+                            <option value="strawberry swirl delight">Strawberry Swirl Delight</option>
+                        </select>
+                    </td>
+                   <!-- Filter by Price Section -->
+                    <td>
+                        <h3>Filter by Price</h3>
+                        <input type="range" min="0" max="100" value="50" id="priceRange">
+                        <div>
+                            <span>£0</span>
+                            <span>£100</span>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+       <!-- Product List Section -->
+        <section>
+            <table>
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="./images/cake1.png" alt="Product 1" width="200">
+                            <figcaption>
+                                <p>Chocolate</p>
+                                <p>£25.00</p>
+                            </figcaption>
+                        </figure>
+                    </td>
+                    <td>
+                        <figure>
+                            <img src="./images/cake2.png" alt="Product 2" width="200">
+                            <figcaption>
+                                <p>Vanilla</p>
+                                <p>£29.00</p>
+                            </figcaption>
+                        </figure>
+                    </td>
+                    <td>
+                        <figure>
+                            <img src="./images/cake3.png" alt="Product 3" width="200">
+                            <figcaption>
+                                <p>Red Velvet Dream</p>
+                                <p>£39.00</p>
+                            </figcaption>
+                        </figure>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="./images/cake4.png" alt="Product 4" width="200">
+                            <figcaption>
+                                <p>Caramel Crunch</p>
+                                <p>£35.00</p>
+                            </figcaption>
+                        </figure>
+                    </td>
+                    <td>
+                        <figure>
+                            <img src="./images/cake5.png" alt="Product 5" width="200">
+                            <figcaption>
+                                <p>Black Forest Fantasy</p>
+                                <p>£29.00</p>
+                            </figcaption>
+                        </figure>
+                    </td>
+                    <td>
+                        <figure>
+                            <img src="./images/cake6.png" alt="Product 6" width="200">
+                            <figcaption>
+                                <p>Lemon Zest Treat</p>
+                                <p>£39.00</p>
+                            </figcaption>
+                        </figure>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <figure>
+                            <img src="./images/cake7.png" alt="Product 7" width="200">
+                            <figcaption>
+                                <p>Blueberry Burst</p>
+                                <p>£35.00</p>
+                            </figcaption>
+                        </figure>
+                    </td>
+                    <td>
+                        <figure>
+                            <img src="./images/cake8.png" alt="Product 8" width="200">
+                            <figcaption>
+                                <p>Mocha Magic</p>
+                                <p>£39.00</p>
+                            </figcaption>
+                        </figure>
+                    </td>
+                    <td>
+                        <figure>
+                            <img src="./images/cake9.png" alt="Product 9" width="200">
+                            <figcaption>
+                                <p>Strawberry Swirl Delight</p>
+                                <p>£35.00</p>
+                            </figcaption>
+                        </figure>
+                    </td>
+                </tr>
+            </table>
+        </section>
+
+       <!-- Cake Display Section -->
+       <section>
+        <table>
+          <tr>
+            <td>
+              <img src="./images/cake3.png" alt="cake image" width="200" height="200" />
+            </td>
+            <td>
+              <img src="./images/caramelcake.png" alt="cake image" width="200" height="200" />
+            </td>
+            <td>
+              <img src="./images/cake2.png" alt="cake image" width="200" height="200" />
+            </td>
+            <td>
+              <img src="./images/cake9.png" alt="cake image" width="200" height="200" />
+            </td>
+            <td>
+              <img src="./images/cake4.png" alt="cake image" width="200" height="200" />
+            </td>
+          </tr>
+        </table>
+       </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <table width="100%" border="0">
+          <tr>
+            <td>
+              <p>&copy; 2025 Cake Shop | Freshly Baked Happiness Every Day!</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <p>Follow Us:</p>
+              <p>
+                <a href="#" target="_blank">
+                  <img src="./images/facebook.png" width="20" height="20" alt="Facebook" />
+                  Facebook
+                </a>
+                |
+                <a href="#" target="_blank">
+                  <img src="./images/twitter_circle.webp" width="20" height="20" alt="Twitter" />
+                  Twitter
+                </a>
+                |
+                <a href="#" target="_blank">
+                  <img src="./images/instagram-logo.webp" width="20" height="20" alt="Instagram" />
+                  Instagram
+                </a>
+              </p>
+            </td>
+          </tr>
+        </table>
+    </footer>
+
+</body>
+</html>

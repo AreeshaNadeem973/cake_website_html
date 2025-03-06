@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Cake Shop</title>
+  </head>
+  <body>
+    <!-- header section -->
+    <table>
+      <tr>
+        <td>
+          <img src="./images/logo.png" alt="logo image" width="100" />
+        </td>
+        <td>
+          <h1>Cake Shop</h1>
+        </td>
+      </tr>
+    </table>
+
+            <!-- Navigation menu -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Contact Us Banner Section -->
+      <section>
+        <table width="100%" height="300"  background="./images/background.jpg">
+          <tr>
+            <td>
+              <blockquote>
+                <h1>Contact Us</h1>
+              </blockquote>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <!-- Contact Form Section -->
+      <section>
+        <h2>Contact Us</h2>
+        <p>Have any questions? Feel free to reach out!</p>
+
+        <table>
+          <tr>
+            <!-- Google Map Section -->
+            <td width="50%">
+              <iframe
+                width="100%"
+                height="400px"
+                frameborder="0"
+                title="map"
+                loading="lazy"
+                src="https://maps.google.com/maps?q=%C4%B0zmir&output=embed"
+              ></iframe>
+            </td>
+
+            <!-- Contact Form Section -->
+            <td width="50%">
+              <form>
+                <table width="100%">
+                  <tr>
+                    <td><label for="name">Name:</label></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input type="text" id="name" name="name" size="40" />
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td><label for="email">Email:</label></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        size="40"
+                        required
+                      />
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td><label for="phone">Phone:</label></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <input type="tel" id="phone" name="phone" size="40" />
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td><label for="message">Message:</label></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <textarea
+                        id="message"
+                        name="message"
+                        rows="4"
+                        cols="37"
+                        required
+                      ></textarea>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>
+                      <button type="submit">Send Message</button>
+                    </td>
+                  </tr>
+                </table>
+              </form>
+            </td>
+          </tr>
+        </table>
+      </section>
+
+      <!-- FAQ Section -->
+      <section>
+        <h2>Frequently Asked Questions</h2>
+
+        <details>
+          <summary>What types of cakes do you offer?</summary>
+          <p>
+            We offer a variety of cakes, including chocolate, vanilla, red
+            velvet, caramel crunch, and custom cakes.
+          </p>
+        </details>
+
+        <details>
+          <summary>How can I place an order?</summary>
+          <p>
+            You can place an order by visiting our shop, calling us, or ordering
+            online through our website.
+          </p>
+        </details>
+
+        <details>
+          <summary>Do you provide same-day delivery?</summary>
+          <p>
+            Yes, we offer same-day delivery for select cakes if the order is
+            placed before 2 PM.
+          </p>
+        </details>
+
+        <details>
+          <summary>Can I customize my cake?</summary>
+          <p>
+            Yes! You can customize your cake by choosing flavors, toppings, and
+            personalized messages.
+          </p>
+        </details>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <table width="100%" border="0">
+        <tr>
+          <td>
+            <p>&copy; 2025 Cake Shop | Freshly Baked Happiness Every Day!</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <p>Follow Us:</p>
+            <p>
+              <a href="#" target="_blank">
+                <img
+                  src="./images/facebook.png"
+                  width="20"
+                  height="20"
+                  alt="Facebook"
+                />
+                Facebook
+              </a>
+              |
+              <a href="#" target="_blank">
+                <img
+                  src="./images/twitter_circle.webp"
+                  width="20"
+                  height="20"
+                  alt="Twitter"
+                />
+                Twitter
+              </a>
+              |
+              <a href="#" target="_blank">
+                <img
+                  src="./images/instagram-logo.webp"
+                  width="20"
+                  height="20"
+                  alt="Instagram"
+                />
+                Instagram
+              </a>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </footer>
+  </body>
+</html>
